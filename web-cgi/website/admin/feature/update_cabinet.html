@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Update Cabinet</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: xx-large;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style2 {font-family: Geneva, Arial, Helvetica, sans-serif}
+-->
+</style>
+</head>
+
+<body>
+<p class="style1">Update Cabinet Data:</p><hr/>
+<form id="form1" name="form1" method="post" action="http://localhost/cgi-bin/update_cabinet.exe">
+  <label>
+  <span class="style2">Client Name :</span>
+  <input type="text" name="client_name" id="client_name" />
+  </label>
+  <pre><span class="style1">        <select name="cabinet" id="cabinet">       <option>Select Cabinet Number</option>       <option>1</option>       <option>2</option>       <option>3</option>       <option>4</option>       <option>5</option>       <option>6</option>       <option>7</option>       <option>8</option>       <option>9</option>     </select>  
+<label><input type="submit" name="update" id="update" value="Update ( );" /></label> </span><label><input type="reset" name="reset" id="reset" value="Reset" /></label>  
+  </pre>
+</form>
+<hr/><form id="form2" name="form2" method="post" action="../personal.html">
+  <label>
+  <a href="../personal.html" target="_self">
+  <input type="submit" name="back" id="back" value="&lt;&lt; Back" />
+  </a></label>
+</form>
+<p class="style1">&nbsp;</p>
+</body>
+</html>

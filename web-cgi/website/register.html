@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+body {
+	background-image: url(vista%20home.jpg);
+}
+.style1 {
+	color: #000000;
+	font-weight: bold;
+}
+.style3 {font-size: large}
+-->
+</style></head>
+<title>
+Register </title>
+<body>
+<h1 class="style1">Registeration Form:</h1>
+<form method="post" action="cgi-bin/register.exe">
+<pre align="center">   First Name:<span class="style3"></span><input type="text" name="f_name"/>
+    Last Name:<input type="text" name="l_name"/>
+    User Name:<input type="text" name="email"/>
+     Password:<input type="password" name="password"/>
+
+<label>	     I am:<select name="sex" id="sex"><option>Select Sex :</option><option>Male</option><option>Female</option></select></label>
+
+ Birthday:<label><select name="month" id="month"><option selected>Month :</option><option>Jan</option>    <option>Feb</option>    <option>March</option>    <option>April</option>    <option>May</option>    <option>June</option>    <option>July</option>    <option>August</option>    <option>Sept</option>    <option>Oct</option>    <option>Nov</option>    <option>Dec</option>  </select></label><label>  <select name="day" id="day"><option selected>Day :</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>28</option><option>29</option><option>30</option><option>31</option>   </select> </label>  <label><select name="year" id="year"><option selected>Year :</option>     <option>80</option>     <option>81</option>     <option>82</option>     <option>83</option>     <option>84</option>     <option>85</option>     <option>86</option>     <option>87</option>     <option>88</option>     <option>89</option>     <option>90</option>     <option>91</option>     <option>92</option>     <option>93</option>     <option>94</option>     <option>95</option>     <option>96</option>     <option>97</option>     <option>98</option>     <option>99</option>     <option>00</option>     <option>01</option>     <option>02</option>     <option>03</option>     <option>04</option>     <option>05</option>   </select>   </label> 
+</pre>
+<pre align="center">   <input type="submit" name="register" value="Register"/>   <input type="reset"  value="Reset"/></pre>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<nav>
+    <buttons spacing="2">
+        <button label="MOTION">
+            <project label="particle system" path="projects/motion/particles/ParticleEngine.swf">
+                Change the values applied to each particle
+            </project>
+            <project label="flocking" path="projects/motion/glow_worm.swf">
+                Flocking with Zeno's paradox
+            </project>
+            <project label="springs" path="projects/motion/springs.swf">
+                Springs from Hooke's Law 
+            </project>
+            <project label="circular movement" path="projects/motion/circle_anim.swf">
+                Orbiting Satellite 
+            </project>
+            <project label="point at" path="projects/motion/point_at.swf">
+                Point At 
+            </project>
+            <project label="gravity" path="projects/motion/gravity.swf">
+                A simple gravity simulation
+            </project>
+            <project label="distance" path="projects/motion/distance.swf">
+                The Pathagorean theorum at work 
+            </project>
+        </button>
+        <button label="DRAWING">
+            <project label="drawing app" path="projects/drawing/DrawingApp.swf">
+                A simple drawing app.
+            </project>
+        </button>
+        <button label="TEXT">
+            <project label="text formatting" path="projects/text/DrawingApp.swf">
+                Format text on the fly
+            </project>
+            <project label="text metrics 1" path="projects/text/DrawingApp.swf">
+                Retrieve line data
+            </project>
+            <project label="text metrics 2" path="projects/text/DrawingApp.swf">
+                Retrieve character and paragraph data
+            </project>
+        </button>
+        <button label="SOUND">
+            <project label="volume and pan" path="projects/sound/volume_pan.swf">
+                Control sound volume and pan with the mouse
+            </project>
+            <project label="compute spectrum" path="projects/sound/visualizer.swf">
+                Create visuals based on a sound's frequency spectrum data 
+            </project>
+        </button>
+        <button label="VIDEO">
+            <project label="full-screen video" path="projects/video/fullscreen.swf">
+                Control sound volume and pan with the mouse
+            </project>
+            <project label="captioned video" path="projects/video/caption.swf">
+                Create visuals based on a sound's frequency spectrum data 
+            </project>
+        </button>
+    </buttons>
+</nav>

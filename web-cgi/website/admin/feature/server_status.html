@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Server Report admin</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #6600FF;
+	font-size: xx-large;
+}
+.style3 {
+	font-size: x-large;
+	font-style: italic;
+}
+-->
+</style>
+</head>
+
+<body>
+<form action="http://localhost/cgi-bin/server_status_admin.exe" method="post" name="form1" class="style1" id="form1">
+  <label>Server Status:
+  <select name="status_server" id="status_server">
+    <option selected="selected">Running</option>
+    <option>Stopped</option>
+    <option>Idle</option>
+    <option>Cable Problems</option>
+    <option>Ptcl Problem</option>
+    <option>Restart</option>
+    <option>Transfer to other Server</option>
+    <option>Light off</option>
+    <option>Server Problem</option>
+    <option>other</option>
+  </select>
+  </label>
+  <blockquote>
+    <p align="center" class="style3">Description:</p>
+  </blockquote>
+  <p align="center">
+    <textarea name="description" id="description" cols="45" rows="5"></textarea>
+  </p>
+  <p align="center">
+    <label>
+    <input type="submit" name="update" id="update" value="Update" />
+    </label>
+    <label>
+    <input type="reset" name="reset" id="reset" value="Reset" />
+    </label>
+  </p>
+</form>
+<form action="../updates.html" method="post" name="form2" target="_self" id="form2">
+  <label>
+  <input type="submit" name="back" id="back" value="&lt;&lt; Back" />
+  </label>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
